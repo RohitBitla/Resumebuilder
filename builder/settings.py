@@ -33,9 +33,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY', default="django-insecure-iae&1x5&n-2b*x1$*w6x4dj3n!$4$1#&*-mj@=vbamq&ws#6qt")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['*', '.onrender.com']
+ALLOWED_HOSTS = ['*', 'resumebuilder-lw6u.onrender.com']
 
 
 # Application definition

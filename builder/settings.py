@@ -35,7 +35,7 @@ SECRET_KEY = config('SECRET_KEY', default="django-insecure-iae&1x5&n-2b*x1$*w6x4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['*', 'https://resumebuilder-lw6u.onrender.com']
+ALLOWED_HOSTS = ['*', 'resumebuilder-lw6u.onrender.com']
 
 
 # Application definition
